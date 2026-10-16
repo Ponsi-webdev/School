@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dashboard | Sample Secondary School (local demo)</title><meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#142D4E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="site.css"><link rel="stylesheet" href="admin.css"></head>
+<body class="admin"><noscript><p style="padding:1rem;margin:0;background:#FFF3D1">The dashboard needs JavaScript.</p></noscript>
+<div id="app"></div>
+<dialog id="cd" class="cd" aria-labelledby="cd-msg"><p id="cd-msg"></p><div class="btn-row"><button class="btn btn-line" id="cd-no" type="button">Cancel</button><button class="btn btn-navy danger" id="cd-ok" type="button">Delete</button></div></dialog>
+<dialog id="pv" class="pv" aria-label="Preview"><div id="pv-body"></div><div class="btn-row" style="margin-top:1rem"><button class="btn btn-navy" id="pv-close" type="button">Close preview</button></div></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script><script src="config.js"></script><script src="store.js"></script><script src="live.js"></script><script src="admin.js"></script></body></html>
